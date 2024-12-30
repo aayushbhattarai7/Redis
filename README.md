@@ -186,6 +186,8 @@ GEOADD <key> <longitude> <latitude> <member>
 #### <latitude>: The latitude of the location (floating-point number).
 #### <member>: The name of the location (a unique identifier).
 
+Key Point to be noted: Frontend often acts as a publisher. We can easily trigger events from frontend without sending HTTP requests.
+
 2. GEOSEARCH -  returns location with the given radius or a boundaring box.
 GEOSEARCH <key> <longitude> <latitude> <field> <value>
 
