@@ -1,4 +1,4 @@
-# Redis memory caching
+# Redis- memory caching
 
 Redis is the openn source, in-memory data store used by millions of developers as a database, streaming engine and message broker and data structure server.
 Whenever the user ask for data, the server asks redis if there is available data which user asks for and if there is no data than the server query the database, the results will store in redis as a cache for the future and return to the user.
